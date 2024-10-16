@@ -19,7 +19,7 @@ body {
     color: #141414;
 }
 
-h1, ul, p, h2, h3, blockquote {
+h1, ul, p, h2, h3, blockquote, dd {
     margin: 0px;
 }
 

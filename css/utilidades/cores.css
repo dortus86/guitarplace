@@ -18,6 +18,7 @@
     --cor-15: #a2a2a2;  
     --cor-16: #aeaeae;
     --cor-17: #595959;
+    --cor-18: #969696;
     
     --cor-p1: #ed5233;
     --cor-p2: #fbeeeb;
@@ -97,6 +98,10 @@
 
 .cor-17 {
     color: var(--cor-17);
+}
+
+.cor-18 {
+    color: var(--cor-18);
 }
 
 .cor-p1 {
