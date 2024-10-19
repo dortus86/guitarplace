@@ -28,6 +28,10 @@
     --cor-p6: #6B2517;
 }
 
+.cor-00 {
+    color: var(--cor-00);
+}
+
 .cor-0 {
     color: var(--cor-0);
 }
