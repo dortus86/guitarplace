@@ -46,7 +46,7 @@
                         <li>Suporte 08h às 18h</li>
                         <li>Cobertura estadual</li>
                     </ul>
-                    <a class="botao secundario" href="./orcamento.html">Inscreva-se</a>
+                    <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata"">Inscreva-se</a>
                 </div>
                 <div class="seguros-item">
                     <h2 class="font-1-xl cor-p1">OURO</h2>
@@ -59,7 +59,7 @@
                         <li>Desconto em parceiros</li>
                         <li>Acesso ao Clube GuitarPlace</li>
                     </ul>
-                    <a class="botao" href="./orcamento.html">Inscreva-se</a>
+                    <a class="botao" href="./orcamento.html?tipo=seguro&produto=ouro">Inscreva-se</a>
                 </div>
             </div>
 
@@ -108,32 +108,32 @@
 
         <dl>
             <div>
-                <dt class="font-1-m-b cor-12">Qual forma de pagamento vocês aceitam?</dt>
-                <dd class="font-2-s cor-6">Aceitamos cartões de crédito com as baideiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista, também aceitamos PIX e Boleto através do PagSeguro.</dd>
+                <dt><button class="font-1-m-b cor-12" aria-controls="pergunta1" aria-expanded="true">Qual forma de pagamento vocês aceitam?</button></dt>
+                <dd id="pergunta1" class="font-2-s cor-6 ativa">Aceitamos cartões de crédito com as baideiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista, também aceitamos PIX e Boleto através do PagSeguro.</dd>
             </div>
             <div>
-                <dt class="font-1-m-b cor-12">O que está incluído na assistência técnica?</dt>
-                <dd class="font-2-s cor-6">A assistência técnica inclui revisão, reparos e ajustes por luthiers especializados, garantindo que sua guitarra mantenha a melhor performance.</dd>
+                <dt><button class="font-1-m-b cor-12" aria-controls="pergunta2" aria-expanded="false">O que está incluído na assistência técnica?</button></dt>
+                <dd id="pergunta2" class="font-2-s cor-6">A assistência técnica inclui revisão, reparos e ajustes por luthiers especializados, garantindo que sua guitarra mantenha a melhor performance.</dd>
             </div>
             <div>
-                <dt class="font-1-m-b cor-12">Existe um serviço de personalização de guitarras?</dt>
-                <dd class="font-2-s cor-6">Sim, oferecemos opções de personalização, como escolha de acabamentos, captadores e ajustes específicos para atender às suas preferências.</dd>
+                <dt><button class="font-1-m-b cor-12" aria-controls="pergunta3" aria-expanded="false">Existe um serviço de personalização de guitarras?</button></dt>
+                <dd id="pergunta3" class="font-2-s cor-6">Sim, oferecemos opções de personalização, como escolha de acabamentos, captadores e ajustes específicos para atender às suas preferências.</dd>
             </div>
             <div>
-                <dt class="font-1-m-b cor-12">Como posso contratar o seguro?</dt>
-                <dd class="font-2-s cor-6">O seguro pode ser contratado na compra da guitarra ou separadamente através do nosso site ou loja física. Um consultor pode ajudá-lo a escolher o plano ideal.</dd>
+                <dt><button class="font-1-m-b cor-12" aria-controls="pergunta4" aria-expanded="false">Como posso contratar o seguro?</button></dt>
+                <dd id="pergunta4" class="font-2-s cor-6">O seguro pode ser contratado na compra da guitarra ou separadamente através do nosso site ou loja física. Um consultor pode ajudá-lo a escolher o plano ideal.</dd>
             </div>
             <div>
-                <dt class="font-1-m-b cor-12">É possível fazer um financiamento?</dt>
-                <dd class="font-2-s cor-6">Sim, oferecemos opções de financiamento através de instituições parceiras. Consulte nossa equipe para mais detalhes sobre as condições.</dd>
+                <dt><button class="font-1-m-b cor-12" aria-controls="pergunta5" aria-expanded="false">É possível fazer um financiamento?</button></dt>
+                <dd id="pergunta5" class="font-2-s cor-6">Sim, oferecemos opções de financiamento através de instituições parceiras. Consulte nossa equipe para mais detalhes sobre as condições.</dd>
             </div>
             <div>
-                <dt class="font-1-m-b cor-12">Qual é o prazo de entrega das guitarras?</dt>
-                <dd class="font-2-s cor-6">O prazo de entrega varia de acordo com a localização, mas geralmente leva entre 5 a 10 dias úteis para envios no Brasil.</dd>
+                <dt><button class="font-1-m-b cor-12" aria-controls="pergunta6" aria-expanded="false">Qual é o prazo de entrega das guitarras?</button></dt>
+                <dd id="pergunta6" class="font-2-s cor-6">O prazo de entrega varia de acordo com a localização, mas geralmente leva entre 5 a 10 dias úteis para envios no Brasil.</dd>
             </div>
             <div>
-                <dt class="font-1-m-b cor-12">Posso experimentar as guitarras antes de comprar?</dt>
-                <dd class="font-2-s cor-6">Sim, temos uma loja física onde você pode experimentar todos os modelos. Também oferecemos a possibilidade de agendar um teste em casa para os clientes em áreas selecionadas.</dd>
+                <dt><button class="font-1-m-b cor-12" aria-controls="pergunta7" aria-expanded="false">Posso experimentar as guitarras antes de comprar?</button></dt>
+                <dd id="pergunta7" class="font-2-s cor-6">Sim, temos uma loja física onde você pode experimentar todos os modelos. Também oferecemos a possibilidade de agendar um teste em casa para os clientes em áreas selecionadas.</dd>
             </div>
         </dl>
     </article>
@@ -175,6 +175,6 @@
             <p class="footer-copy font-2-m cor-16">GuitarPlace © Alguns direitos reservados.</p>
         </div>
     </footer>
-
+    <script src="./js/script.js"></script>
 </body>
 </html>
