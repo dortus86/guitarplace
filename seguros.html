@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@100;400;600&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+
+    <script>document.documentElement.classList.add('js')</script>
 </head>
 <body id="seguros">
 
@@ -37,7 +39,7 @@
         </div>
         
             <div class="seguros container">
-                <div class="seguros-item">
+                <div class="seguros-item fadeInLeft" data-anime="200">
                     <h2 class="font-1-xl cor-14">PRATA</h2>
                     <span class="font-1-xl cor-0">R$ 199 <span class="font-1-xs cor-14">mensal</span></span>
                     <ul class="font-2-m cor-0">
@@ -48,7 +50,7 @@
                     </ul>
                     <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata"">Inscreva-se</a>
                 </div>
-                <div class="seguros-item">
+                <div class="seguros-item fadeInRight" data-anime="400">
                     <h2 class="font-1-xl cor-p1">OURO</h2>
                     <span class="font-1-xl cor-0">R$ 299 <span class="font-1-xs cor-14">mensal</span></span>
                     <ul class="font-2-m cor-0">
@@ -175,6 +177,7 @@
             <p class="footer-copy font-2-m cor-16">GuitarPlace © Alguns direitos reservados.</p>
         </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>;
     <script src="./js/script.js"></script>
 </body>
 </html>
